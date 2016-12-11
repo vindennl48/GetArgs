@@ -29,4 +29,4 @@ __GetArgs__ will also result an exception for any flags set that are not in the
 list specified in the class init.
 
 ##Dependencies
- * Python3.x
+ * Python 3.x
