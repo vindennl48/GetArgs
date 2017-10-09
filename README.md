@@ -25,8 +25,8 @@ if '-up' in args:
     pword = args['password']
 ```
 
-__GetArgs__ will also result an exception for any flags set that are not in the
+__GetArgs__ will also raise an exception for any flags set that are not in the
 list specified in the class init.
 
-##Dependencies
- * Python 3.x
+## Dependencies
+ - Python 3.x
