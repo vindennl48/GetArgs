@@ -8,10 +8,13 @@ member to deal with terminal arguments every program, you can
 from GetArgs import getargs
 ```
 
-##How To Use
+## How To Use
 To set up __GetArgs__, you must initialize the flags that you want to use.
 ```python
+# initialize GetArgs with dictionary of flags
 myargs = getargs(['-h','--help','-s','-r','-up','username', 'password'])
+
+# collect any flags from terminal command as a dictionary
 args = myargs.getargs()
 ```
 
